@@ -14,6 +14,7 @@ Grab the article at [https://www.c-sharpcorner.com/article/getting-started-with-
 ## Notes:
 
 * Install the [ML.NET Model Builder (Preview)](https://marketplace.visualstudio.com/items?itemName=MLNET.07) tooling;
+* The 'Custom Scenario' option wasn't available so instead I chose a 'Value prediction;
 
 ## What's it all about?
 
