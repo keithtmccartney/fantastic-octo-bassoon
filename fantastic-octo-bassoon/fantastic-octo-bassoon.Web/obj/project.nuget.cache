@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lnMQxyU82DGbF6qY38DThUvhtaokItdEo6a8PUZViIsdqvLSzYoXSauHx1VSfIMMTCZQd6I7dWJrtADz2V+Ufw==",
+  "dgSpecHash": "ga/BeLAdFCfVUFRWiRt1EDBGfRfxl2I5mWgOf7NYu7FCMcBuW8neKkkL5BBgdxLgWju60ObVywKZVTTbk8ENOA==",
   "success": true,
   "projectFilePath": "G:\\git\\Source\\Repos\\fantastic-octo-bassoon\\fantastic-octo-bassoon\\fantastic-octo-bassoon.Web\\fantastic-octo-bassoon.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\keith\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -13,7 +13,7 @@ Grab the article at [https://www.c-sharpcorner.com/article/getting-started-with-
 
 ## Notes:
 
-* Abc;
+* Install the [ML.NET Model Builder (Preview)](https://marketplace.visualstudio.com/items?itemName=MLNET.07) tooling;
 
 ## What's it all about?
 
