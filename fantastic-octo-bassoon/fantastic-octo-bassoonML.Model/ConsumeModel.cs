@@ -7,6 +7,7 @@ using System.Text;
 using System.IO;
 using Microsoft.ML;
 using Fantastic_octo_bassoonML.Model;
+using System.Reflection;
 
 namespace Fantastic_octo_bassoonML.Model
 {
@@ -14,7 +15,7 @@ namespace Fantastic_octo_bassoonML.Model
     {
         private static Lazy<PredictionEngine<ModelInput, ModelOutput>> PredictionEngine = new Lazy<PredictionEngine<ModelInput, ModelOutput>>(CreatePredictionEngine);
 
-        public static string MLNetModelPath = Path.GetFullPath("MLModel.zip");
+        public static string MLNetModelPath = Path.GetFullPath("../" + Assembly.GetExecutingAssembly().FullName.Split(',')[0] + "/" + "MLModel.zip");
 
         // For more info on consuming ML.NET models, visit https://aka.ms/mlnet-consume
         // Method for consuming model in your app

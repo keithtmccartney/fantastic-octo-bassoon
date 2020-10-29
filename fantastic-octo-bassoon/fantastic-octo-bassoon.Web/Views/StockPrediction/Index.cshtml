@@ -1,11 +1,10 @@
 ﻿@model Fantastic_octo_bassoonML.Model.ModelInput
 
 @{
-    ViewData["Title"] = "item stock prediction";
-    //Layout = "../~Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Stock Quantity Prediction";
 }
 
-<h2>Welcome to the warehouse stock prediction for Items by Location</h2>
+<h2>Welcome to the stock quantity prediction for Items by Location</h2>
 <h3>using ML.NET in ASP.NET Core</h3>
 <hr />
 
@@ -41,7 +40,7 @@
 {
     <div class="row">
         <div class="col-md-12">
-            <h2 style="color: #103F62">Here is the test result for the Item - <span style="color: #A50F0F">@ViewData["ItemID"]</span> - at location - <span style="color: #A50F0F">@ViewData["Loccode"]</span>.</h2>
+            <h2 style="color: #103F62">Item - <span style="color: #A50F0F">@ViewData["ItemID"]</span>; Location - <span style="color: #A50F0F">@ViewData["Loccode"]</span>.</h2>
             <h1 style="color: #A50F0F">The predicted stock quantity for this item is: @ViewBag.Result.Prediction.</h1>
         </div>
     </div>

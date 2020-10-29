@@ -47,6 +47,7 @@ G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\Razor\Views\StockPrediction\Index.cshtml.g.cs
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\fantastic-octo-bassoon.Web.RazorTargetAssemblyInfo.cache
@@ -58,4 +59,3 @@ G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\fantastic-octo-bassoon.Web.dll
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\fantastic-octo-bassoon.Web.pdb
 G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\fantastic-octo-bassoon.Web.genruntimeconfig.cache
-G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoon.Web\obj\Debug\netcoreapp3.1\Razor\Views\StockPrediction\Index.cshtml.g.cs

@@ -25,9 +25,16 @@ namespace fantastic_octo_bassoon.Web.Controllers
 		{
 			ViewBag.Result = "";
 
-			var stockPredictions = ConsumeModel.Predict(input);
+			try
+            {
+				var stockPredictions = ConsumeModel.Predict(input);
 
-			ViewBag.result = stockPredictions;
+				ViewBag.result = stockPredictions;
+			}
+			catch (Exception ex)
+            {
+				throw ex;
+            }
 
 			ViewData["ItemID"] = input.ItemID;
 			ViewData["Loccode"] = input.Loccode;
