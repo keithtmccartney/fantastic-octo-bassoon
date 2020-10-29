@@ -1,0 +1,9 @@
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\bin\Debug\netstandard2.0\MLModel.zip
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\bin\Debug\netstandard2.0\fantastic-octo-bassoonML.Model.deps.json
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\bin\Debug\netstandard2.0\fantastic-octo-bassoonML.Model.dll
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\bin\Debug\netstandard2.0\fantastic-octo-bassoonML.Model.pdb
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\obj\Debug\netstandard2.0\fantastic-octo-bassoonML.Model.AssemblyInfoInputs.cache
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\obj\Debug\netstandard2.0\fantastic-octo-bassoonML.Model.AssemblyInfo.cs
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\obj\Debug\netstandard2.0\fantastic-octo-bassoonML.Model.csproj.CoreCompileInputs.cache
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\obj\Debug\netstandard2.0\fantastic-octo-bassoonML.Model.dll
+G:\git\Source\Repos\fantastic-octo-bassoon\fantastic-octo-bassoon\fantastic-octo-bassoonML.Model\obj\Debug\netstandard2.0\fantastic-octo-bassoonML.Model.pdb
