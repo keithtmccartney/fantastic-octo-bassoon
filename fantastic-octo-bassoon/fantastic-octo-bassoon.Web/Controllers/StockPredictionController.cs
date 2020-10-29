@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Fantastic_octo_bassoonML.Model;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,27 @@ namespace fantastic_octo_bassoon.Web.Controllers
 	{
 		public IActionResult Index()
 		{
+			return View();
+		}
+
+		[HttpGet]
+		public IActionResult StockPrediction()
+		{
+			return View();
+		}
+
+		[HttpPost]
+		public ActionResult StockPrediction(ModelInput input)
+		{
+			ViewBag.Result = "";
+
+			var stockPredirections = ConsumeModel.Predict(input);
+
+			ViewBag.result = stockPredirections;
+
+			ViewData["ItemID"] = input.ItemID;
+			ViewData["Loccode"] = input.Loccode;
+
 			return View();
 		}
 	}

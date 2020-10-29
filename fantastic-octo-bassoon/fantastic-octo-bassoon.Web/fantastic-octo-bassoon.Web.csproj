@@ -9,4 +9,8 @@
     <PackageReference Include="Microsoft.ML" Version="1.5.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\fantastic-octo-bassoonML.Model\fantastic-octo-bassoonML.Model.csproj" />
+  </ItemGroup>
+
 </Project>

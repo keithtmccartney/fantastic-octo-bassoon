@@ -1,5 +1,50 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model Fantastic_octo_bassoonML.Model.ModelInput
+
 @{
+    ViewData["Title"] = "item stock predirection";
+    Layout = "~Views/Shared/_Layout.cshtml";
+}
+
+<h2>Welcome to the warehouse stock prediction for Items by Location</h2>
+<h3>using ML.NET in ASP.NET Core</h3>
+<hr />
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="StockPrediction">
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="ItemID" class="control-label">Item ID:</label>
+
+                    <input asp-for="ItemID" class="form-control" />
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label asp-for="Loccode" class="control-label">Location Code:</label>
+
+                    <input asp-for="Loccode" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group col-md-4 text-left">
+                <label class="control-label"></label>
+
+                <input type="submit" value="Stock Prediction" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <hr />
+    </div>
+</div>
+
+@if (ViewBag.Result != null)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <h2 style="color: #103F62">Here is the test result for the Item - <span style="color: #A50F0F">@ViewData["ItemID"]</span> - at location - <span style="color: #A50F0F">@ViewData["Loccode"]</span>.</h2>
+            <h1 style="color: #A50F0F">The predicted stock quantity for this item is: @ViewBag.Result.Prediction.</h1>
+        </div>
+    </div>
+
+    <hr />
 }
